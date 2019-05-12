@@ -13,7 +13,6 @@ a {
     width: 100%;
     height: 600px;
     background-image: url("gravel.png");
-
 }
 #name {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -41,7 +40,7 @@ a {
     height: 90px;
 }
 #about {
-     margin-top: 30px;
+    margin-top: 30px;
     font-size: 20px;
     padding-right: 10px;
     border-right: 1px solid rgb(238, 235, 235);
@@ -68,7 +67,48 @@ a {
     height: 40px;
 }
 .aboutbox {
-    width: 960px;
+    line-height: 26pt;
+    color: grey;
+    padding-top: 30px;
+    padding-left: 20px; 
+    padding-right: 20px;    
+    width: 925px;
+    margin: auto;
     height: 800 px;
     background-color: white;
 }
+#aboutme {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+   margin: auto;
+    width: 920px;
+    border-bottom: 1px solid grey;
+    color: #4aaaa5;
+    
+}
+#puppypic {
+    padding-top: 20px;
+    width: 180px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float:left;
+}
+.portfoliobox {
+    background: white;
+    Margin:auto;
+    width: 960px;
+    height: 550px;
+    border-bottom: 1px solid grey;
+    color: #4aaaa5;
+}
+#portfoliohead {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+   margin: auto;
+    width: 920px;
+    border-bottom: 1px solid grey;
+    color: #4aaaa5;
+}
+   
