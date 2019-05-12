@@ -1,3 +1,17 @@
+/* GENERAL */
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+ }
+
 a:link {
     text-decoration: none;
 }
@@ -8,11 +22,12 @@ a {
     float: right;
     color:rgb(165, 160, 160);
 }
+
 .bodybackground {
-    clear: both;
     width: 100%;
-    height: 600px;
+    height: 100%;
     background-image: url("gravel.png");
+    padding-bottom: 70px;
 }
 #name {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -58,6 +73,9 @@ a {
      margin-top: 30px;
 }
 #footer {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0;
     background-color: #666666;
     border-top: 7px solid #4aaaa5;
     padding-top: 20px;
@@ -66,6 +84,15 @@ a {
     width: 100%;
     height: 40px;
 }
+
+/* #footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px; 
+    background:#6cf;
+ } */
+
 .aboutbox {
     line-height: 26pt;
     color: grey;
@@ -81,7 +108,7 @@ a {
     padding-bottom: 15px;
     margin-bottom: 20px;
    margin: auto;
-    width: 920px;
+    width: 100;
     border-bottom: 1px solid grey;
     color: #4aaaa5;
     
@@ -96,9 +123,9 @@ a {
 }
 .portfoliobox {
     background: white;
-    Margin:auto;
+    margin:auto;
     width: 960px;
-    height: 550px;
+    height: 100%;
     border-bottom: 1px solid grey;
     color: #4aaaa5;
 }
@@ -106,10 +133,163 @@ a {
     padding-top: 20px;
     padding-bottom: 15px;
     margin-bottom: 20px;
-   margin: auto;
+    margin: auto;
     width: 920px;
     border-bottom: 1px solid grey;
     color: #4aaaa5;
 }
+.desc {
+    overflow: hidden;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    font-size: 20px;
+    
+    
+   
+    
+     
+}
+
+.gallery{
+    /* display: inline-block; */
+    overflow: hidden;
+    overflow-clip-box: 0;
+    margin: 10px;
+
+}
+.responsive {
+   
+    float: left;
+    
+}
+
+@media only screen and (max-width: 960px) {
+    /* .footer{
+        width: 100%
+    } */
+
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutme {
+        width: 100%
+    }
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+    .aboutbox{
+        width: 49.99999%;
+    }
+    .headcenter {   
+        width: 100%;
+        clear:right;
+        float:left;
+    }
+        @media only screen and (max-width: 640px) {
+            #aboutme {
+                width: 100%
+            }
+            .responsive {
+              width: 49.99999%;
+              margin: 6px 0;
+            }
+            .aboutbox{
+                width: 49.99999%;
+            }
+            .headcenter {   
+                width: 100%;
+                clear:right;
+                float:left;
+        {
+      }
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .contactcontainer {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+}
+
+/* ^contact form^ */
+input[type=text]  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+      /* mediaquery */
+  @media only screen and (max-width: 640px) {
+  
+   
+    .responsive {
+      width: 100%;
+      margin: auto;
+      
+    }
+   
+}
+    .aboutbox{
+        text-overflow: clip;
+        width: 49.99999%;
+    }
+    .headcenter {   
+        width: 100%;
+        clear:right;
+        float:left;
+    }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 
    
