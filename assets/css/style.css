@@ -1,0 +1,74 @@
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a {
+    float: right;
+    color:rgb(165, 160, 160);
+}
+.bodybackground {
+    clear: both;
+    width: 100%;
+    height: 600px;
+    background-image: url("gravel.png");
+
+}
+#name {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 33px;
+    width: 190px;
+    height: 40px;
+    background: #4aaaa5;
+    color: white;
+    float: left;
+}
+.header {
+    border-bottom-color: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: 100%;
+    height: 90px;
+}
+.headcenter {
+    clear:both;
+    margin: auto;
+    width: 960px;
+    height: 90px;
+}
+#about {
+     margin-top: 30px;
+    font-size: 20px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(238, 235, 235);
+}
+#portfolio { 
+     margin-top: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;   
+    border-right: 1px solid rgb(238, 235, 235);
+}
+#contact {
+    font-size: 20px;
+    padding-left: 10px;
+     margin-top: 30px;
+}
+#footer {
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+    padding-top: 20px;
+    color: darkgrey;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+.aboutbox {
+    width: 960px;
+    height: 800 px;
+    background-color: white;
+}
